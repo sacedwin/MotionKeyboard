@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".70"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textLabel"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/inputTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".60"
+            android:paddingTop="16dp"
+            android:text="@string/inputText"
+            android:textColor="@android:color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/slidingButton0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button0Label"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/slidingButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/button1Label"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/slidingButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/button2Label"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/slidingButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/button3Label"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/slidingButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/button4Label"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/button0Label"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button1Label"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button2Label"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button3Label"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button4Label"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/buttonDeleteLabel"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/buttonClipLabel"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonSms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/buttonSmsLabel"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="@string/buttonSpaceLabel"
+                android:background="@drawable/button_colors"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="visible"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

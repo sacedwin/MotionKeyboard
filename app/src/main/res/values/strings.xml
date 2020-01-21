@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MotionKeyboard</string>
+    <string name="inputText">Tilt to start typing!</string>
+    <string name="textLabel">Your text:</string>
+
+    <string name="button0Label">0-9</string>
+    <string name="button1Label">A-I</string>
+    <string name="button2Label">J-R</string>
+    <string name="button3Label">S-Z</string>
+    <string name="button4Label">.,!?:\'</string>
+    <string name="buttonDeleteLabel">Del</string>
+    <string name="buttonSpaceLabel">Space</string>
+    <string name="buttonClipLabel">Copy</string>
+    <string name="buttonSmsLabel">SMS</string>
+</resources>
